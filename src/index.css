@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #F79A59;
+  --color-brand-brown: #7E5B42;
+  --color-brand-beige: #FDFBF7;
+  --color-brand-pink: #E8A5A5;
+  --color-brand-green: #A3B18A;
+  
+  --font-sans: "Nunito", sans-serif;
+  --font-display: "Fredoka One", cursive;
+}
+
+body {
+  background-color: var(--color-brand-beige);
+  color: #4A4A4A;
+}
+
+/* Gradient mesh del fondo — colores de R TRES */
+.gradient-bg {
+  background-color: #FDFBF7;
+  background-image:
+    radial-gradient(ellipse at 15% 20%, rgba(247, 154, 89, 0.25) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 10%, rgba(232, 165, 165, 0.30) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(247, 154, 89, 0.18) 0%, transparent 50%),
+    radial-gradient(ellipse at 10% 85%, rgba(232, 165, 165, 0.22) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 50%, rgba(253, 251, 247, 1) 0%, transparent 70%);
+}
